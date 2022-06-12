@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Journey</title>
+  
+  <subtitle>Journey</subtitle>
+  <link href="https://bestautumn.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://bestautumn.github.io/"/>
+  <updated>2022-06-12T11:50:11.372Z</updated>
+  <id>https://bestautumn.github.io/</id>
+  
+  <author>
+    <name>bestautumn</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我也来写博客啦</title>
+    <link href="https://bestautumn.github.io/2022/06118700.html"/>
+    <id>https://bestautumn.github.io/2022/06118700.html</id>
+    <published>2022-06-11T15:00:57.000Z</published>
+    <updated>2022-06-12T11:50:11.372Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;我也来写博客啦&quot;&gt;&lt;a href=&quot;#我也来写博客啦&quot; class=&quot;headerlink&quot; title=&quot;我也来写博客啦&quot;&gt;&lt;/a&gt;我也来写博客啦&lt;/h1&gt;&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="web" scheme="https://bestautumn.github.io/tags/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建我的个人网站</title>
+    <link href="https://bestautumn.github.io/2022/061137119.html"/>
+    <id>https://bestautumn.github.io/2022/061137119.html</id>
+    <published>2022-06-11T13:35:03.000Z</published>
+    <updated>2022-06-12T11:50:11.374Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;搭建自己的个人网站&quot;&gt;&lt;a href=&quot;#搭建自己的个人网站&quot; class=&quot;headerlink&quot; title=&quot;搭建自己的个人网站&quot;&gt;&lt;/a&gt;搭建自己的个人网站&lt;/h1&gt;&lt;h2 id=&quot;2022-6-8&quot;&gt;&lt;a href=&quot;#2022-6-8&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="web" scheme="https://bestautumn.github.io/tags/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://bestautumn.github.io/2022/061116107.html"/>
+    <id>https://bestautumn.github.io/2022/061116107.html</id>
+    <published>2022-06-10T23:59:30.435Z</published>
+    <updated>2022-06-12T11:50:11.369Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
