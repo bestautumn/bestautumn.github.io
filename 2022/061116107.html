@@ -980,24 +980,26 @@
                         var diffYears = Math.floor(diff / years);
                         var diffDays = Math.floor((diff / days) - diffYears * 365);
 
+                        //在上述代码的基础上，我仿照上面的样式写出来的  by bestautumn 还是很有成就感的 哈哈
                         var diffHours = Math.floor((diff / hours) - diffYears * 365 * 24 - diffDays * 24);
                         var diffMinutes = Math.floor((diff / minutes) - diffYears * 365 * 24 * 60 - diffDays * 24 * 60 - diffHours * 60);
                         var diffSeconds = Math.floor((diff / seconds) - diffYears * 365 * 24 * 60 * 60 - diffDays * 24 * 60 * 60 - diffHours * 60 * 60 - diffMinutes * 60);
 
 
                         // 区分是否有年份.
+                        //根据bestautumn的理解，这是因为距今网站运行时间没有超过1年，考虑到以后网站运行的时间会越来越长，就会有年份需要显示
                         var language = 'zh-CN';
                         if (startYear === String(todayYear)) {
                             document.getElementById("year").innerHTML = todayYear;
                             var daysTip = 'This site has been running for ' + diffDays + ' days';
                             if (language === 'zh-CN') {
                                 //daysTip = '本站已运行 ' + diffDays + ' 天';
-                                daysTip = '本站已运行 ' + diffDays + ' 天' + diffHours + '小时' + diffMinutes + '分钟' + diffSeconds + '秒';
+                                daysTip = '本站已安全运行 ' + diffDays + ' 天 ' + diffHours + ' 小时 ' + diffMinutes + ' 分钟 ' + diffSeconds + ' 秒 ';
                             } else if (language === 'zh-HK') {
                                 daysTip = '本站已運行 ' + diffDays + ' 天';
                             }
                             document.getElementById("sitetime").innerHTML = daysTip;
-                        } else {
+                        } else {//当网站运行到第二年的时候，这行代码就会发生作用了  by betsautumn
                             document.getElementById("year").innerHTML = startYear + " - " + todayYear;
                             var yearsAndDaysTip = 'This site has been running for ' + diffYears + ' years and '
                                 + diffDays + ' days';
@@ -1006,11 +1008,11 @@
                             } else if (language === 'zh-HK') {
                                 yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天';
                             }
-                            document.getElementById("sitetime").innerHTML = yearsAndDaysTip;
+                            document.getElementById("sitetime").innerHTML = yearsAndDaysTip;         
                         }
-                        setTimeout(calcSiteTime,1000);//此处是我自己加上去的，这样原来静态的时间就成了动态的时间了
+                        setTimeout(calcSiteTime,1000);//此处是我自己加上去的，这样原来网页显示的静态的时间就变成了动态的时间显示了 by bestautumn
                     }
-
+    
                     calcSiteTime();
                 </script>
             
