@@ -657,13 +657,19 @@
                         var diffYears = Math.floor(diff / years);
                         var diffDays = Math.floor((diff / days) - diffYears * 365);
 
+                        var diffHours = Math.floor((diff / hours) - diffYears * 365 * 24 - diffDays * 24);
+                        var diffMinutes = Math.floor((diff / minutes) - diffYears * 365 * 24 * 60 - diffDays * 24 * 60 - diffHours * 60);
+                        var diffSeconds = Math.floor((diff / seconds) - diffYears * 365 * 24 * 60 * 60 - diffDays * 24 * 60 * 60 - diffHours * 60 * 60 - diffMinutes * 60);
+
+
                         // 区分是否有年份.
                         var language = 'zh-CN';
                         if (startYear === String(todayYear)) {
                             document.getElementById("year").innerHTML = todayYear;
                             var daysTip = 'This site has been running for ' + diffDays + ' days';
                             if (language === 'zh-CN') {
-                                daysTip = '本站已运行 ' + diffDays + ' 天';
+                                //daysTip = '本站已运行 ' + diffDays + ' 天';
+                                daysTip = '本站已运行 ' + diffDays + ' 天' + diffHours + '小时' + diffMinutes + '分钟' + diffSeconds + '秒';
                             } else if (language === 'zh-HK') {
                                 daysTip = '本站已運行 ' + diffDays + ' 天';
                             }
