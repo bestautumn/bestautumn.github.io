@@ -240,7 +240,7 @@ mark {
     margin-bottom: 0;
 }
 
-.bg-color {
+.bg-color { /*修改导航栏颜色*/
     /*background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);*/
       background-image: linear-gradient(to right, #8cbfb8 0%, #128c6f 100%);
 }
