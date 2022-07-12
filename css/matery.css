@@ -4,6 +4,11 @@
     .container {
         width: 95%;
     }
+    /* bestautumn添加的代码,解决手机端阅读显示不美观问题 */
+    header .brand-logo .logo-img{
+        display: none;
+    }
+   
 }
 
 /*中等屏幕下(平板类)的样式*/
