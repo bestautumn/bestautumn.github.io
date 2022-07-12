@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>博客部署日志</title>
+      <link href="/2022/071211612.html"/>
+      <url>/2022/071211612.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="2022-06-08"><a href="#2022-06-08" class="headerlink" title="2022-06-08"></a>2022-06-08</h3><p>配置版本控制</p><h3 id="2022-06-09"><a href="#2022-06-09" class="headerlink" title="2022-06-09"></a>2022-06-09</h3><h3 id="2022-06-10"><a href="#2022-06-10" class="headerlink" title="2022-06-10"></a>2022-06-10</h3><h3 id="2022-06-11"><a href="#2022-06-11" class="headerlink" title="2022-06-11"></a>2022-06-11</h3><h3 id="2022-07-11"><a href="#2022-07-11" class="headerlink" title="2022-07-11"></a>2022-07-11</h3><ul><li><font face = "宋体" size = 4>配置文章的日期更新，字数统计，阅读时长，阅读次数，摘要；</font></li><li><font face = "宋体" size = 4>消除标题前图片，实现手机端网站首页的更好显示；</font></li><li><font face = "宋体" size = 4>实现推荐文章功能；</font></li><li><font face = "宋体" size = 4>设置转载版权设置；</font></li><li><font face = "宋体" size = 4>删去打赏功能；</font></li><li><font face = "宋体" size = 4>设置个人写文章专用封面图片文件夹，实现文章封面更加丰富多彩；</font></li><li><font face = "宋体" size = 4>抛弃天气插件的使用；</font></li><li><font face = "宋体" size = 4>使用tags方便管理；</font></li><li><font face = "宋体" size = 4>使用Markdown目录语法。 </font></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 网站管理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>品读诗词，品味人生</title>
       <link href="/2022/071121207.html"/>
       <url>/2022/071121207.html</url>
